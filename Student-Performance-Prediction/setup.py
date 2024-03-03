@@ -10,7 +10,7 @@ def get_requirements(requirements_path:str)-> List[str]:
         requirements = [req.replace('\n', '') for req in requirements if req != HYPON_E_DOT]
     return requirements
 setup(
-    name='mlproject',
+    name='student-performace-prediction',
     version='0.0.1',
     author='muhammad',
     author_email='muhammadof9@gmail.com',
